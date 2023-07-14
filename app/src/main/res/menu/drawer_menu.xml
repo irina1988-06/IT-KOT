@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+<!--  создаем первый раздел -->
+    <item android:title="@string/app_курсы_для_детей">
+        <!--  добавляем курсы в  раздел 1 -->
+     <menu>
+         <!--  курс 1 -->
+         <item android:title="@string/app_Программирование"
+             android:id ="@+id/Программирование" />  <!--  для нажатия -->
+
+         <!--  курс 2 -->
+         <item android:title="@string/app_Программирование_андроид"
+             android:id ="@+id/Программирование_андроид" /> <!--  для нажатия -->
+
+         <!--  курс 3 -->
+         <item android:title="@string/app_D3"
+             android:id ="@+id/D3" /> <!--  для нажатия -->
+
+         <!--  курс 4 -->
+         <item android:title="@string/app_Робототехника"
+             android:id ="@+id/Робототехника" /> <!--  для нажатия -->
+
+     </menu>
+
+    </item>
+
+
+    <!--  создаем 2 раздел курсы для взрослых -->
+    <item android:title="@string/app_курсы_для_взрослых">
+        <!--  добавляем курсы в  раздел 2 -->
+        <menu>
+            <!--  курс 1 -->
+            <item android:title="@string/app_программирование"
+                android:id ="@+id/программирование" />  <!--  для нажатия -->
+
+            <!--  курс 2 -->
+            <item android:title="@string/app_Инженерное_дело"
+                android:id ="@+id/Инженерное_дело" /> <!--  для нажатия -->
+
+            <!--  курс 3 -->
+            <item android:title="@string/app_Педагогика"
+                android:id ="@+id/Педагогика" /> <!--  для нажатия -->
+
+
+
+        </menu>
+    </item>
+
+
+    <!--  создаем 3 раздел контакты -->
+    <item android:title="@string/app_Контакты">
+        <!--  добавляем разделы в 3-е меню -->
+        <menu>
+            <item android:title="@string/app_Телефон"
+                android:id ="@+id/Телефон" />
+            <item android:title="@string/app_адреса"
+                android:id ="@+id/адреса" />
+            <item android:title="@string/app_сайт"
+                android:id ="@+id/сайт" />
+        </menu>
+
+    </item>
+
+
+    <!--  создаем 4 раздел регистрация -->
+    <item android:title="@string/app_Профиль">
+        <!--  добавляем разделы в 4-е меню -->
+        <menu>
+            <item android:title="@string/app_sing_up"
+                android:id ="@+id/app_sing_up" />
+            <item android:title="@string/app_sing_in"
+                android:id ="@+id/app_sing_in" />
+            <item android:title="@string/app_sing_out"
+                android:id ="@+id/app_sing_out" />
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/w"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_sing_up"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edSignEmail"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/app_Email"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textEmailAddress"
+        android:shadowColor="@color/black"
+        android:textColor="#090909"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textResetPassword" />
+
+    <EditText
+        android:id="@+id/edSignPassword"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/app_Password"
+
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/edSignEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edSignEmail" />
+
+    <Button
+        android:id="@+id/btSingUpIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:text="@string/sing_up_action"
+        android:textColor="#6E6E6E"
+        app:backgroundTint="#F6F6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edSignEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edSignEmail" />
+
+    <Button
+        android:id="@+id/btForgetP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:text="@string/forget_Password"
+        android:textColor="#7A7A7A"
+        android:visibility="gone"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edSignEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/btSingUpIn" />
+
+    <TextView
+        android:id="@+id/textResetPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/восст"
+        android:textColor="#FB0303"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/edSignEmail"
+        app:layout_constraintStart_toStartOf="@+id/edSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/y" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/BTGoogleSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btSingUpIn"
+        app:layout_constraintEnd_toEndOf="@+id/btSingUpIn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btSingUpIn"
+        app:layout_constraintTop_toBottomOf="@+id/edSignPassword"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

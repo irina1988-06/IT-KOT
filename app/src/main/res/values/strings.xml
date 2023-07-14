@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">IT_KOT</string>
+
+    <!-- Пишем коменты -->
+
+    <string name="Вход_или_регистрация">Войдите или зарегистрируйтесь</string>
+
+    <!-- Выдвижное меню -->
+    <!-- Категория 1 -->
+    <string name="app_курсы_для_детей">Курсы для детей</string>
+    <string name="app_Программирование">Программирование игр </string>
+    <string name="app_Программирование_андроид">Мобильная разработка</string>
+    <string name="app_Робототехника">Робототехника</string>
+    <string name="app_D3">3D моделирование</string>
+    <!-- Категория 2 -->
+    <string name="app_курсы_для_взрослых">Курсы для взрослых</string>
+    <string name="app_программирование">Программирование</string>
+    <string name="app_Инженерное_дело">Инженерное дело</string>
+    <string name="app_Педагогика">Педагогика</string>
+    <!-- Категория 3 контакты -->
+    <string name="app_Контакты">Наши контакты</string>
+    <string name="app_сайт">Сайт</string>
+    <string name="app_адреса">Адрес</string>
+    <string name="app_Телефон">Телефон</string>
+    <!-- Категория 4 аккаунт -->
+    <string name="app_Профиль">Профиль</string>
+    <string name="app_sing_up">Регистрация</string>
+    <string name="app_sing_in">Вход</string>
+    <string name="app_sing_out">Выход</string>
+
+    <!-- для кнопки открытия меню -->
+    <string name="app_Open">Open</string>
+    <string name="app_close">close</string>
+    <!-- Sign Dialog -->
+    <string name="app_Email">Email</string>
+    <string name="app_Password">Password</string>
+    <string name="sing_in">Вход</string>
+    <string name="sing_up_action">Зарегистрироваться</string>
+    <string name="sing_in_action">Войти</string>
+    <string name="sing_up">Вход</string>
+    <string name="forget_Password">Забыли пароль</string>
+    <string name="удачно">Мы отправили вам письмо. Пройдите по ссылке в письме для подтверждения своего E-mail.  </string>
+    <string name="неудачно">Проверте правильность написания вашего E-mail и пароля. Пароль должен содержать больше 7 символов </string>
+    <string name="неудачно_совсем">Не удалось зарегистрироваться</string>
+    <string name="Восстановление">Мы отправили вам письмо. Пройдите по ссылке в письме для восстановления пароля.  </string>
+    <string name="не_удалось_войти">Не удалось войти</string>
+    <string name="восст">Для восстановления пароля укажите ваш Email адрес </string>
+    <string name="email">Мы отправили вам письмо. Пройдите по ссылке в письме для подтверждения своего E-mail.</string>
+
+
+</resources>
